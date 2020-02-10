@@ -1,0 +1,60 @@
+a[target] {
+  background-color: red;
+}
+
+a[target=_self] {
+  background-color: green;
+}
+
+*[alt~=K2] {
+  border: 2px solid green;
+  border-radius: 5%;
+}
+
+*[class|=claseparrafo] {
+  background-color: indigo;
+}
+
+.claseparrafo-1 {
+  font: 30px monospace;
+}
+
+*[class^=claseselector] {
+  text-decoration: underline;
+}
+
+.claseselector1 {
+  color: darkblue;
+}
+
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 1s;
+  transition: 1s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+  width: 100%;
+}
+
+input[type=text].claseinput1 {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../img/busqueda.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 2s ease-in-out;
+  transition: width 2s ease-in-out;
+}
+
+/*# sourceMappingURL=hojacssproyectout6.css.map */
